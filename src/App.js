@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="zbook/login" element={<LoginPage/>} />
+        <Route path="zbook/" element={<LoginPage/>} />
         <Route path="zbook/admin/home" element={<AdminHome/>} />
         <Route path="zbook/head/of/department/home" element={<UserHome/>} />
         <Route path="zbook/dean/home" element={<UserHome/>} />
