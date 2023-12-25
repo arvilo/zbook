@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/zbook/static/css/main.d81490b1.css",
-    "main.js": "/zbook/static/js/main.5c3a634d.js",
+    "main.js": "/zbook/static/js/main.2e8270c0.js",
     "index.html": "/zbook/index.html",
     "main.d81490b1.css.map": "/zbook/static/css/main.d81490b1.css.map",
-    "main.5c3a634d.js.map": "/zbook/static/js/main.5c3a634d.js.map"
+    "main.2e8270c0.js.map": "/zbook/static/js/main.2e8270c0.js.map"
   },
   "entrypoints": [
     "static/css/main.d81490b1.css",
-    "static/js/main.5c3a634d.js"
+    "static/js/main.2e8270c0.js"
   ]
 }
