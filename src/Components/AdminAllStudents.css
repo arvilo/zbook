@@ -1,0 +1,55 @@
+.AdminAllStudent {
+    counter-set: count;
+    margin: 10px;
+}
+
+.AdminAllStudent tbody td:first-child {
+    counter-increment: count;
+}
+
+.AdminAllStudent tbody td:first-child::before {
+    content: counter(count);
+}
+
+.AdminAllStudent table {
+    border-collapse: collapse;
+}
+
+.AdminAllStudent thead {
+    background-color: #f2f2f2;
+}
+
+.AdminAllStudent th, .AdminAllStudent
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    width: 150px;
+}
+
+.AdminAllStudent th:first-child, .AdminAllStudent
+td:first-child {
+    width: 35px;
+}
+
+.AdminAllStudent th {
+    font-weight: bold;
+}
+
+.AdminAllStudent th:nth-child(n+3) input {
+    width: 80px;
+}
+
+.AdminAllStudent input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+}
+
+.AdminAllStudent tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.AdminAllStudent tr:hover {
+    background-color: #f5f5f5;
+}

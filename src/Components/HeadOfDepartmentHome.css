@@ -1,0 +1,156 @@
+.HeadOfDepartmentHome {
+    padding: 20px;
+
+  }
+
+
+ .HeadOfDepratmentHome .main {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .HeadOfDepratmentHome  .teachers,
+  HeadOfDepratmentHome .subjects {
+    margin: 0 20px;
+  }
+  
+ .HeadOfDepratmentHome table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .HeadOfDepratmentHome  th,.HeadOfDepratmentHome td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .HeadOfDepratmentHome th {
+    background-color: #f2f2f2;
+  }
+  
+  .HeadOfDepratmentHome  button.teacher,
+  .HeadOfDepratmentHome  button.subject {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .HeadOfDepratmentHome button.teacher:hover,
+  .HeadOfDepratmentHome button.subject:hover {
+    background-color: #45a049;
+  }
+  
+  
+  
+  .HeadOfDepratmentHome .new-teacher-cover,
+  .HeadOfDepratmentHome  .set-teacher-cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .HeadOfDepratmentHome  .new-teacher,
+  .HeadOfDepratmentHome  .set-teacher {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .HeadOfDepratmentHome .new-teacher label,
+  .HeadOfDepratmentHome .set-teacher label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .HeadOfDepratmentHome .new-teacher input,
+  .HeadOfDepratmentHome .set-teacher select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .HeadOfDepratmentHome .gender {
+    margin-bottom: 10px;
+  }
+  
+  .HeadOfDepratmentHome .gender label {
+    margin-right: 10px;
+  }
+  
+  .HeadOfDepratmentHome .new-teacher button,
+  .HeadOfDepratmentHome .set-teacher button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .HeadOfDepratmentHome .new-teacher button:hover,
+  .HeadOfDepratmentHome .set-teacher button:hover {
+    background-color: #45a049;
+  }
+  
+
+
+  .HeadOfDepratmentHome .new-subject-cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.HeadOfDepratmentHome .new-subject {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+}
+
+.HeadOfDepratmentHome .new-subject form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.HeadOfDepratmentHome .new-subject input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.HeadOfDepratmentHome .new-subject button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.HeadOfDepratmentHome .new-subject p {
+  color: red;
+  margin-top: 10px;
+}
+

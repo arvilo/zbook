@@ -1,0 +1,76 @@
+.CreateSpecialty .main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.CreateSpecialty h1 {
+    text-align: center;
+}
+
+.CreateSpecialty form {
+    display: flex;
+    flex-direction: column;
+}
+
+.CreateSpecialty label {
+    margin: 10px 0;
+}
+
+.CreateSpecialty select, .CreateSpecialty
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.CreateSpecialty .select-div {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.CreateSpecialty button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.CreateSpecialty button:hover {
+    background-color: #45a049;
+}
+
+.CreateSpecialty .alert {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.CreateSpecialty .succes-mesage-cover {
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.CreateSpecialty .succes-mesage {
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 60px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.CreateSpecialty .succes-mesage h4 {
+    margin-bottom: 10px; 
+}

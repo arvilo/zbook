@@ -1,0 +1,35 @@
+.AdminCreates {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 10px;
+  }
+
+  .AdminCreates button {
+    padding: 10px 0;
+    font-size: 20px;
+    border: 1px solid grey;
+    background-color: #333333;
+    color: white;
+  }
+
+  .AdminCreates button:hover {
+    cursor: pointer;
+    background-color: #555555;
+  }
+
+  .AdminCreates a {
+    text-decoration: none;
+    color: white
+  }
+
+  .AdminCreates a:hover {
+    text-decoration: none;
+    color: white
+  }
+
+  @media screen and (min-width: 300px) and (max-width: 900px) {
+   .AdminCreates {
+    display: none;
+   } 
+  }

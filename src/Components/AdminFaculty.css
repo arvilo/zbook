@@ -1,0 +1,57 @@
+
+  
+  .AdminFacultyPage .main {
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px;
+    counter-set: count;
+
+  }
+  
+  .AdminFacultyPage h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .AdminFacultyPage table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  .AdminFacultyPage th, .AdminFacultyPage td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .AdminFacultyPage th {
+    background-color: #f2f2f2;
+  }
+  
+  .AdminFacultyPage tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .AdminFacultyPage td:first-child {
+    counter-increment: count;
+    width: 20px;
+  }
+  .AdminFacultyPage td:first-child::before {
+
+      content: counter(count);
+  }
+
+  
+  .AdminFacultyPage td:nth-child(5) {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .AdminFacultyPage th:nth-child(1), .AdminFacultyPage td:nth-child(1),.AdminFacultyPage th:nth-child(3), .AdminFacultyPage td:nth-child(3),.AdminFacultyPage th:nth-child(4), .AdminFacultyPage td:nth-child(4),.AdminFacultyPage th:nth-child(5), .AdminFacultyPage td:nth-child(5) {
+      display: none;
+    }
+  
+    
+  }
+  

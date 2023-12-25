@@ -1,0 +1,125 @@
+.AdminAboutStudent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.AdminAboutStudent .profile {
+    margin: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.AdminAboutStudent .profile-blur {
+    filter: blur(3px);
+}
+
+.AdminAboutStudent img {
+    width: 200px;
+    height:   200px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+
+
+.AdminAboutStudent .image {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.AdminAboutStudent .about {
+    margin: 0 25px 40px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.AdminAboutStudent .buttons  button{
+    background-color: rgba(94, 165, 232, 1);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    width: 100px;
+    align-self: flex-end;
+    margin-right:10px;
+}
+
+
+.AdminAboutStudent .reset-password-cover {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.AdminAboutStudent .reset-password {
+    position: relative;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+
+.AdminAboutStudent .reset-password h6 {
+    font-size: 18px;
+    color: #333;
+}
+
+.AdminAboutStudent .reset-password p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.AdminAboutStudent .reset-password form {
+    display: flex;
+    flex-direction: column;
+}
+
+.AdminAboutStudent .reset-password input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.AdminAboutStudent .reset-password button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.AdminAboutStudent .reset-password button:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (min-width: 300px) and (max-width: 715px) {
+    .AdminAboutStudent .profile {
+        justify-content: start;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    .AdminAboutStudent .profile {
+        flex-direction: column;
+    }
+
+    .AdminAboutStudent .about:nth-child(2) {
+        margin-top: 40px;
+    }
+}

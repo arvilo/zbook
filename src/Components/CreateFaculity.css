@@ -1,0 +1,107 @@
+.CreateFaculity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.CreateFaculity .main {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 50%;
+    margin: 20px;
+}
+
+.CreateFaculity h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.CreateFaculity form {
+    display: flex;
+    flex-direction: column;
+}
+
+.CreateFaculity label {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.CreateFaculity input {
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.CreateFaculity button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.CreateFaculity button:hover {
+    background-color: #0056b3;
+}
+
+.CreateFaculity .alert {
+    margin-top: 20px;
+    background-color: #ff6666;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.CreateFaculity .gender {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.CreateFaculity .gender .gender {
+    width: 50%;
+    justify-content: flex-start;
+
+}
+
+.created-cover {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+
+.created {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    margin-top: 50px;
+}
+
+.created h6 {
+    color: #333; /* Başlık rengi */
+    font-size: 18px; /* Başlık font büyüklüğü */
+    margin-bottom: 10px; /* Başlıktan sonra boşluk */
+}
+
+.created p {
+    color: #666; /* Paragraf rengi */
+    font-size: 16px; /* Paragraf font büyüklüğü */
+    margin-bottom: 8px; /* Paragraftan sonra boşluk */
+}
+
+.blur-cover {
+    filter: blur(3px);
+}

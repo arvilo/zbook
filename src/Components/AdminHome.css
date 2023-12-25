@@ -1,0 +1,28 @@
+.AdminHome .main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.AdminHome .admin-aside {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.AdminHome .admin-aside div {
+    margin-bottom: 10px;
+}
+
+.AdminHome .admin-aside button {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    background-color: #333;
+    border: none;
+}
+
+.AdminHome .admin-aside button:hover {
+    background-color: #555;
+}

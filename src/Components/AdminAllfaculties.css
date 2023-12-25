@@ -1,0 +1,48 @@
+.AdminAllfaculties {
+    margin: 20px;
+    counter-set: count;
+  }
+
+.AdminAllfaculties tbody td:first-child {
+    counter-increment: count;
+}
+
+.AdminAllfaculties tbody td:first-child::before {
+    content: counter(count);
+}  
+
+.AdminAllfaculties  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .AdminAllfaculties   th, .AdminAllfaculties td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .AdminAllfaculties   th {
+    background-color: #f2f2f2;
+  }
+  
+  .AdminAllfaculties   tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .AdminAllfaculties   tbody tr:hover {
+    background-color: #e5e5e5;
+  }
+  
+  @media screen and (min-width: 300px) and (max-width: 600px) {
+    .AdminAllfaculties th:nth-child(1), .AdminAllfaculties td:nth-child(1),.AdminAllfaculties th:nth-child(3), .AdminAllfaculties td:nth-child(3),.AdminAllfaculties th:nth-child(4), .AdminAllfaculties td:nth-child(4){
+        display: none;
+    }
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 900px) {
+    .AdminAllfaculties th:nth-child(1), .AdminAllfaculties td:nth-child(1),.AdminAllfaculties th:nth-child(3), .AdminAllfaculties td:nth-child(3){
+        display: none;
+    }
+  }
