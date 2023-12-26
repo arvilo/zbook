@@ -5256,44 +5256,12 @@ const initialState =  {
       lessonTable: [],
       lesson: [],
       attendance_journal: [],
-      currentUser: {
-        name: 'Nicat',
-        surname: 'Əliyev',
-        father: 'Nazim',
-        gender: 'm',
-        birth: '2004/3/29',
-        type: 'admin',
-        id: 1,
-        username: 'nicat.əliyev',
-        password: 'adminadmin',
-        password_reseted: false
-      },
+      currentUser: undefined,
       adminAboutStudent: 186,
-      lastCreatedUser: {
-        name: 'Nohəddin',
-        surname: 'Qurbanlı',
-        father: 'Cəmil',
-        gender: 'm',
-        birth: '2004-06-16',
-        type: 'student',
-        group_id: 163,
-        id: 190,
-        username: 'nohəddin.qurbanlı',
-        password: 'JTdfBhA5',
-        password_reseted: true
-      },
-      currentDepartment: {
-        id: 8,
-        name: 'Tətbiqi riyaziyyat',
-        head_of_department_id: 9
-      },
-      adminCurrentFaculty: {
-        id: 4,
-        name: 'İnformasiya texnologiyaları və idarəetmə fakültəsi',
-        dean_id: 5,
-        symbol: 'İTİF'
-      },
-      currentGroupId: 163
+      lastCreatedUser: undefined,
+      currentDepartment: undefined,
+      adminCurrentFaculty: undefined,
+      currentGroupId: undefined
     }
   
 
