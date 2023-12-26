@@ -22,7 +22,7 @@ const LogoutButton = () => {
 
     function clickFunc() {
         dispatch(setCurrentUser({}));
-        navigate("/zbook/login")
+        navigate("/zbook")
     }
 
   return (
