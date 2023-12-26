@@ -78,6 +78,7 @@ const CreateGroup = () => {
             if (check) {
                 dispatch(createGroupR({ number, specialty_id, enterance_year: `${enteranceYear}-${Number(enteranceYear) + 1}`, students }))
                 setCreatedGroupNumber(number);
+                setShowAlert(false);
                 return
             }
         }
