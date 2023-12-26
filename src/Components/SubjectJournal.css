@@ -81,3 +81,15 @@
     color: red;
     margin-top: 10px;
 }
+
+@media screen and (min-width: 300px) and (max-width: 640px) {
+    .SubjectJournal td:nth-child(3),.SubjectJournal th:nth-child(3),.SubjectJournal td:nth-child(4),.SubjectJournal th:nth-child(4),.SubjectJournal td:nth-child(5),.SubjectJournal th:nth-child(5) {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 395px) {
+    .SubjectJournal td:nth-child(1),.SubjectJournal th:nth-child(1),.SubjectJournal td:nth-child(6),.SubjectJournal th:nth-child(6),.SubjectJournal td:nth-child(7),.SubjectJournal th:nth-child(7) {
+        display: none;
+    }
+}

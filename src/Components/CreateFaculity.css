@@ -91,15 +91,15 @@
 }
 
 .created h6 {
-    color: #333; /* Başlık rengi */
-    font-size: 18px; /* Başlık font büyüklüğü */
-    margin-bottom: 10px; /* Başlıktan sonra boşluk */
+    color: #333; 
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .created p {
-    color: #666; /* Paragraf rengi */
-    font-size: 16px; /* Paragraf font büyüklüğü */
-    margin-bottom: 8px; /* Paragraftan sonra boşluk */
+    color: #666; 
+    font-size: 16px;
+    margin-bottom: 8px;
 }
 
 .blur-cover {

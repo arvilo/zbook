@@ -30,7 +30,7 @@ const GroupPage = (props) => {
   function goToList() {
     setCurrentSubjectGroup(undefined)
   }
-
+ 
   return (
     <div className='GroupPage'>
       <Header />

@@ -39,3 +39,21 @@
 .GroupPage .subjects button:hover {
     background-color: #45a049;
 }
+
+@media screen and (min-width:300px) and (max-width: 970px) {
+    .GroupPage .main {
+        flex-direction: column-reverse;
+    }
+
+    .GroupPage .subjects {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5px;
+    }
+
+    .GroupPage .subjects button {
+        width: 150px;
+        margin-right: 1%;
+    }
+}

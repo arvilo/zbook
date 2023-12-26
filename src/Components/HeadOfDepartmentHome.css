@@ -154,3 +154,21 @@
   margin-top: 10px;
 }
 
+@media screen and (min-width: 300px) and (max-width: 1060px) {
+  .HeadOfDepratmentHome .main {
+    flex-direction: column;
+    padding: 5px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 470px) {
+  .HeadOfDepratmentHome .main .subjects td:nth-child(3),.HeadOfDepratmentHome .main .subjects th:nth-child(3),.HeadOfDepratmentHome .main .subjects td:nth-child(4),.HeadOfDepratmentHome .main .subjects th:nth-child(4) {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 380px) {
+  .HeadOfDepratmentHome .main .teachers td:nth-child(3),.HeadOfDepratmentHome .main .teachers th:nth-child(3),.HeadOfDepratmentHome .main .teachers td:nth-child(4),.HeadOfDepratmentHome .main .teachers th:nth-child(4) {
+    display: none;
+  }
+}

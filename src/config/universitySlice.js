@@ -5297,481 +5297,6 @@ const initialState =  {
     }
   
 
-    // const initialState =  {
-    //   next_id: 49,
-    //   users: [
-    //     {
-    //       name: 'Nicat',
-    //       surname: 'Əliyev',
-    //       father: 'Nazim',
-    //       gender: 'm',
-    //       birth: '2004/3/29',
-    //       type: 'admin',
-    //       id: 1,
-    //       username: 'nicat.əliyev',
-    //       password: 'adminadmin',
-    //       password_reseted: false
-    //     },
-    //     {
-    //       name: 'Rəhim',
-    //       surname: 'Əlizadə',
-    //       father: 'Yusif',
-    //       gender: 'm',
-    //       birth: '2004/11/25',
-    //       type: 'dean',
-    //       id: 3,
-    //       username: 'rəhim.əlizadə',
-    //       password: 'jWGussYP',
-    //       password_reseted: true
-    //     },
-    //     {
-    //       name: 'Gülana',
-    //       surname: 'Hacızadə',
-    //       father: 'Əli',
-    //       gender: 'f',
-    //       birth: '2004/06/15',
-    //       type: 'dean',
-    //       id: 5,
-    //       username: 'gülana.hacızadə',
-    //       password: 'pO4U5dfN',
-    //       password_reseted: true
-    //     },
-    //     {
-    //       name: 'Ramin',
-    //       surname: 'Əliyev',
-    //       father: 'Ramin',
-    //       gender: 'm',
-    //       birth: '2000/02/16',
-    //       type: 'head of department',
-    //       id: 7,
-    //       username: 'ramin.əliyev',
-    //       password: '5r7vW8AS',
-    //       password_reseted: true
-    //     },
-    //     {
-    //       name: 'Həsən',
-    //       surname: 'Vüsalov',
-    //       father: 'Vaqif',
-    //       gender: 'm',
-    //       birth: '2009/06/08',
-    //       type: 'head of department',
-    //       id: 9,
-    //       username: 'həsən.vüsalov',
-    //       password: 'FduYvQrm',
-    //       password_reseted: true
-    //     },
-    //     {
-    //       name: 'Məhəmməd',
-    //       surname: 'Musayev',
-    //       father: 'Natiq',
-    //       gender: 'm',
-    //       birth: '2004/07/29',
-    //       type: 'head of department',
-    //       id: 11,
-    //       username: 'məhəmməd.musayev',
-    //       password: 'A5x0ojgL',
-    //       password_reseted: true
-    //     },
-    //     {
-    //       name: 'Murad',
-    //       surname: 'Əmirov',
-    //       father: 'Azad',
-    //       gender: 'm',
-    //       birth: '2001/05/14',
-    //       type: 'head of department',
-    //       id: 13,
-    //       username: 'murad.əmirov',
-    //       password: 'qaDjNY7q',
-    //       password_reseted: true
-    //     },
-    //     {
-    //       name: 'Vüsal',
-    //       surname: 'Quliyev',
-    //       father: 'Ramin',
-    //       gender: 'm',
-    //       birth: '1974/05/21',
-    //       type: 'head of department',
-    //       id: 15,
-    //       username: 'vüsal.quliyev',
-    //       password: 'gET3qbwQ',
-    //       password_reseted: true
-    //     },
-    //     {
-    //       name: 'Azər',
-    //       surname: 'Əmirov',
-    //       father: 'Azər',
-    //       gender: 'm',
-    //       birth: '1995-01-09',
-    //       type: 'teacher',
-    //       department_id: 6,
-    //       id: 17,
-    //       username: 'azər.əmirov',
-    //       password: '4oQNitS4',
-    //       password_reseted: true
-    //     },
-    //     {
-    //       name: 'Mehdi',
-    //       surname: 'Qafarov',
-    //       father: 'Ramil',
-    //       gender: 'm',
-    //       birth: '1998-02-17',
-    //       type: 'teacher',
-    //       department_id: 6,
-    //       id: 18,
-    //       username: 'mehdi.qafarov',
-    //       password: 'NKkxYDs2',
-    //       password_reseted: true
-    //     },
-    //     {
-    //       name: 'Günel',
-    //       surname: 'Pənahi',
-    //       father: 'Samir',
-    //       gender: 'f',
-    //       birth: '2003-04-01',
-    //       type: 'teacher',
-    //       department_id: 6,
-    //       id: 19,
-    //       username: 'günel.pənahi',
-    //       password: 'wZpcCQcB',
-    //       password_reseted: true
-    //     },
-    //     {
-    //       name: 'Vüqar',
-    //       surname: 'Ramalov',
-    //       father: 'Vüqar',
-    //       gender: 'm',
-    //       birth: '1994-01-11',
-    //       type: 'teacher',
-    //       department_id: 8,
-    //       id: 23,
-    //       username: 'vüqar.ramalov',
-    //       password: 'cncZFZK6',
-    //       password_reseted: true
-    //     },
-    //     {
-    //       name: 'Vüsalə',
-    //       surname: 'Əliyeva',
-    //       father: 'Həsən',
-    //       gender: 'f',
-    //       birth: '2006-01-10',
-    //       type: 'teacher',
-    //       department_id: 8,
-    //       id: 24,
-    //       username: 'vüsalə.əliyeva',
-    //       password: 'MRZT4syD',
-    //       password_reseted: true
-    //     },
-    //     {
-    //       name: 'Hüseynli',
-    //       surname: 'Aybəniz',
-    //       father: 'Ayaz',
-    //       gender: 'f',
-    //       birth: '1989-05-10',
-    //       type: 'teacher',
-    //       department_id: 8,
-    //       id: 25,
-    //       username: 'hüseynli.aybəniz',
-    //       password: 'VADRBNhi',
-    //       password_reseted: true
-    //     },
-    //     {
-    //       name: 'Gülşən',
-    //       surname: 'Əliyeva',
-    //       father: 'Əli',
-    //       gender: 'f',
-    //       birth: '1993-02-02',
-    //       type: 'teacher',
-    //       department_id: 10,
-    //       id: 33,
-    //       username: 'gülşən.əliyeva',
-    //       password: 'ejEHmLcP',
-    //       password_reseted: true
-    //     },
-    //     {
-    //       name: 'Vüsal',
-    //       surname: 'Qafarov',
-    //       father: 'Qafar',
-    //       gender: 'm',
-    //       birth: '1997-01-28',
-    //       type: 'teacher',
-    //       department_id: 10,
-    //       id: 34,
-    //       username: 'vüsal.qafarov',
-    //       password: 'Z28TCGZy',
-    //       password_reseted: true
-    //     },
-    //     {
-    //       name: 'Musayev',
-    //       surname: 'Musa',
-    //       father: 'Musa',
-    //       gender: 'm',
-    //       birth: '1989-01-01',
-    //       type: 'teacher',
-    //       department_id: 12,
-    //       id: 39,
-    //       username: 'musayev.musa',
-    //       password: 'gVQn3V90',
-    //       password_reseted: true
-    //     },
-    //     {
-    //       name: 'Cəmil',
-    //       surname: 'Mehdiyev',
-    //       father: 'Mehdi',
-    //       gender: 'm',
-    //       birth: '2006-02-14',
-    //       type: 'teacher',
-    //       department_id: 12,
-    //       id: 40,
-    //       username: 'cəmil.mehdiyev',
-    //       password: '6sKEDj7o',
-    //       password_reseted: true
-    //     },
-    //     {
-    //       name: 'Həsən',
-    //       surname: 'Həsənov',
-    //       father: 'Həsən',
-    //       gender: 'm',
-    //       birth: '1998-03-11',
-    //       type: 'teacher',
-    //       department_id: 14,
-    //       id: 44,
-    //       username: 'həsən.həsənov',
-    //       password: 'xHDOkH4i',
-    //       password_reseted: true
-    //     }
-    //   ],
-    //   faculties: [
-    //     {
-    //       id: 2,
-    //       name: 'Energetika fakültəsi',
-    //       dean_id: 3,
-    //       symbol: 'EF'
-    //     },
-    //     {
-    //       id: 4,
-    //       name: 'İnformasiya texnologiyaları və idarəetmə fakültəsi',
-    //       dean_id: 5,
-    //       symbol: 'İTİF'
-    //     }
-    //   ],
-    //   specialties: [],
-    //   education_plans: [],
-    //   groups: [],
-    //   departments: [
-    //     {
-    //       id: 6,
-    //       name: 'Humanitar fənnlər',
-    //       head_of_department_id: 7
-    //     },
-    //     {
-    //       id: 8,
-    //       name: 'Tətbiqi riyaziyyat',
-    //       head_of_department_id: 9
-    //     },
-    //     {
-    //       id: 10,
-    //       name: 'Kompüter mühəndisliyi',
-    //       head_of_department_id: 11
-    //     },
-    //     {
-    //       id: 12,
-    //       name: 'Qaz neft',
-    //       head_of_department_id: 13
-    //     },
-    //     {
-    //       id: 14,
-    //       name: 'Dil və ədəbiyyat',
-    //       head_of_department_id: 15
-    //     }
-    //   ],
-    //   subjects: [
-    //     {
-    //       id: 16,
-    //       name: 'Tarix',
-    //       department_id: 6
-    //     },
-    //     {
-    //       id: 20,
-    //       name: 'Fəlsəfə',
-    //       department_id: 6
-    //     },
-    //     {
-    //       id: 21,
-    //       name: 'Mülki müdafiə',
-    //       department_id: 6
-    //     },
-    //     {
-    //       id: 22,
-    //       name: 'Azərbaycan tarixi',
-    //       department_id: 6
-    //     },
-    //     {
-    //       id: 26,
-    //       name: 'Riyazi analiz',
-    //       department_id: 8
-    //     },
-    //     {
-    //       id: 27,
-    //       name: 'Diferensial tənliklər',
-    //       department_id: 8
-    //     },
-    //     {
-    //       id: 28,
-    //       name: 'Diskret riyaziyyat',
-    //       department_id: 8
-    //     },
-    //     {
-    //       id: 29,
-    //       name: 'Xətti cəbr',
-    //       department_id: 8
-    //     },
-    //     {
-    //       id: 30,
-    //       name: 'Analitik həndəsə',
-    //       department_id: 8
-    //     },
-    //     {
-    //       id: 31,
-    //       name: 'Ehtimal nəzəriyyəsi',
-    //       department_id: 8
-    //     },
-    //     {
-    //       id: 32,
-    //       name: 'Statistika',
-    //       department_id: 8
-    //     },
-    //     {
-    //       id: 35,
-    //       name: 'Kompüter mühəndisliyinin əsasları',
-    //       department_id: 10
-    //     },
-    //     {
-    //       id: 36,
-    //       name: 'Proqramlaşdırma',
-    //       department_id: 10
-    //     },
-    //     {
-    //       id: 37,
-    //       name: 'Sistem inzibatçılığı',
-    //       department_id: 10
-    //     },
-    //     {
-    //       id: 38,
-    //       name: 'Veb proqramlaşdırma',
-    //       department_id: 10
-    //     },
-    //     {
-    //       id: 41,
-    //       name: 'Neftin kompleks hazırlanması',
-    //       department_id: 12
-    //     },
-    //     {
-    //       id: 42,
-    //       name: 'Qaz quyularının istismarı',
-    //       department_id: 12
-    //     },
-    //     {
-    //       id: 43,
-    //       name: 'Quyuların təhlili',
-    //       department_id: 12
-    //     },
-    //     {
-    //       id: 45,
-    //       name: 'Ədəbiyyat',
-    //       department_id: 14
-    //     },
-    //     {
-    //       id: 46,
-    //       name: 'Azərbaycan dili',
-    //       department_id: 14
-    //     },
-    //     {
-    //       id: 47,
-    //       name: 'Orta əsrlər ədəbiyyatı',
-    //       department_id: 14
-    //     },
-    //     {
-    //       id: 48,
-    //       name: 'İşgüzar kommunikasiya',
-    //       department_id: 14
-    //     }
-    //   ],
-    //   subject_groups: [],
-    //   points: [],
-    //   main_journal: [],
-    //   rooms: [],
-    //   lessonTable: [],
-    //   lesson: [],
-    //   attendance_journal: [],
-    //   currentUser: {
-    //     name: 'Nicat',
-    //     surname: 'Əliyev',
-    //     father: 'Nazim',
-    //     gender: 'm',
-    //     birth: '2004/3/29',
-    //     type: 'admin',
-    //     id: 1,
-    //     username: 'nicat.əliyev',
-    //     password: 'adminadmin',
-    //     password_reseted: false
-    //   },
-    //   adminAboutStudent: null,
-    //   lastCreatedUser: {
-    //     name: 'Həsən',
-    //     surname: 'Həsənov',
-    //     father: 'Həsən',
-    //     gender: 'm',
-    //     birth: '1998-03-11',
-    //     type: 'teacher',
-    //     department_id: 14,
-    //     id: 44,
-    //     username: 'həsən.həsənov',
-    //     password: 'xHDOkH4i',
-    //     password_reseted: true
-    //   },
-    //   currentDepartment: {
-    //     id: 14,
-    //     name: 'Dil və ədəbiyyat',
-    //     head_of_department_id: 15
-    //   }
-    // }
-  
-
-
-
-// const initialState = {  //baslangic deyerler ucun obyekt yaradiriq
-//     next_id: 2,
-//     users: [
-//       {
-//         "name": "Nicat",
-//         "surname": "Əliyev",
-//         "father": "Nazim",
-//         "gender": "m",
-//         "birth": "2004/3/29",
-//         "type": "admin",
-//         "id": 1,
-//         "username": "nicat.əliyev",
-//         "password": "adminadmin",
-//         "password_reseted": false
-//       }
-//     ],
-//     faculties: [],
-//     specialties: [],
-//     education_plans: [],
-//     groups: [],
-//     departments: [],
-//     subjects: [],
-//     subject_groups: [],
-//     points: [],
-//     main_journal: [],
-//     rooms: [],
-//     lessonTable: [],
-//     lesson: [],
-//     attendance_journal: [],
-// currentUser: null,
-//     adminAboutStudent: null,
-// }
-
 const getUserByUsernameF = (state, username) => {
     if (!state.users.find(item => item.username === username)) {
         return false;
@@ -5898,9 +5423,7 @@ function createSubject(state, name, department_id) {
 
 
 function createSpecialty(state, name, faculty_id, tutor, education_plan) {
-  console.log("");
   if (name && faculty_id && tutor && education_plan) {
-console.log("");
 name = removeAdditonalSpaces(state, name);
 tutor.type = 'tutor';
 
@@ -5908,42 +5431,31 @@ tutor.type = 'tutor';
 if (!state.specialties.find(item => item.name === name) && state.faculties.find(item => item.id === faculty_id)) {
           
           let check = true;
-          console.log(check);
           education_plan.forEach((element, ind) => {
-            console.log(check);
               if (typeof element.credit !== "number" || typeof element.semester !== "number") {
-                  console.log(check);
                   check = false;
                 }
-                console.log(check);
                 if (!state.subjects.find(item => element.subject_id === item.id)) {
-                    console.log(check);
                     check = false;
                     
                 }
                 for (let index = ind + 1; index < education_plan.length; index++) {
                   if (education_plan[index].subject_id === element.subject_id) {
-                      console.log(education_plan[index]);
                       check = false
                 }
 
             }
             
         })
-        console.log("");
         for (let i = 1; i < 8; i++) {
-                  console.log("");
                   
                   if (education_plan.filter(item => item.semester === i).reduce((sum, element) => sum + element.credit, 0) !== 30) {
                       check = false;
-                      console.log("");
                       
                     }
-                    console.log("");
                     
                 }
                 
-                console.log(check);
                 if (check) {
               
               const newSpeciality = {
@@ -5954,7 +5466,6 @@ if (!state.specialties.find(item => item.name === name) && state.faculties.find(
                   education_plan
                 }
                 
-                console.log(check);
                 state.specialties.push(newSpeciality)
                 console.log(check);
                 
@@ -6114,7 +5625,7 @@ function setAdminCurrentFaculty(state,faculty) {
 const universitySlice = createSlice({
     name: "university",
     initialState,
-    reducers: { //reducerleri burda yaradiriq
+    reducers: {
         createFaculityR: (state, action) => { createFaculity(state, action.payload.name, action.payload.symbol, action.payload.dean) },
         createDepartmentR: (state, action) => { createDepartment(state, action.payload.name, action.payload.head_of_department) },
         createSubjectR: (state, action) => { createSubject(state, action.payload.name, action.payload.department_id) },
@@ -6134,6 +5645,6 @@ const universitySlice = createSlice({
       }
 });
 
-export const { createFaculityR, createDepartmentR, createSubjectR, createSpecialtyR, createGroupR, setResultByAdminP, setTeacherR, setResultByTeacherP,setCurrentUser,setPasswordForUser,setAdminAboutStudentId,resetPassword,setAdminCurrentFacultyR,setAdminCurrentGroupIdR,createUserR,setCurrentDepartmentR  } = universitySlice.actions;  //burda butun reducerleri export edirik
+export const { createFaculityR, createDepartmentR, createSubjectR, createSpecialtyR, createGroupR, setResultByAdminP, setTeacherR, setResultByTeacherP,setCurrentUser,setPasswordForUser,setAdminAboutStudentId,resetPassword,setAdminCurrentFacultyR,setAdminCurrentGroupIdR,createUserR,setCurrentDepartmentR  } = universitySlice.actions;  
 
 export default universitySlice.reducer;

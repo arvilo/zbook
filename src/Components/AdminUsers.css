@@ -75,3 +75,34 @@
 .AdminUsers .reset-password button:hover {
     background-color: #45a049;
 }
+
+@media screen and (min-width: 300px) and (max-width: 1020px) {
+    .AdminUsers td:nth-child(6),.AdminUsers th:nth-child(6){
+        display: none;
+    } 
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+    .AdminUsers td:nth-child(4),.AdminUsers th:nth-child(4){
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 300px) and (max-width: 565px) {
+    .AdminUsers td:nth-child(1),.AdminUsers th:nth-child(1),.AdminUsers td:nth-child(5),.AdminUsers th:nth-child(5){
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 300px) and (max-width: 345px) {
+    .AdminUsers td:nth-child(2),.AdminUsers th:nth-child(2),.AdminUsers td:nth-child(3),.AdminUsers th:nth-child(3){
+        display: none;
+    }
+    .AdminUsers td:nth-child(5),.AdminUsers th:nth-child(5){
+        display: block;
+        width: 100px;
+        overflow-x: scroll;
+    }
+}

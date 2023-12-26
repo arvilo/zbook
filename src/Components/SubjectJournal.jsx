@@ -194,7 +194,7 @@ const SubjectJournal = (props) => {
                     </form>
                         <p className={showAlert ? "alert" : "alert display-none"}>Məlumat düzgün daxil edilməmişdir</p>
                 </div>
-            </div>
+            </div> 
         </div>
     )
 }

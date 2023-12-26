@@ -1,15 +1,12 @@
-/* Bu stil özellikleri CreateGroup bileşeni için geçerli olacaktır */
 .CreateGroup .main{
     padding: 20px;
   }
   
-  /* Başlık için stil özellikleri */
   .CreateGroup   h1 {
     font-size: 24px;
     margin-bottom: 20px;
   }
   
-  /* Form içindeki etiketler için stil özellikleri */
   .CreateGroup   label {
     display: block;
     margin-bottom: 8px;
@@ -19,7 +16,6 @@
     width: 150px;
   }
   
-  /* Input ve select elemanları için stil özellikleri */
   .CreateGroup   input,
   .CreateGroup  select {
     width: 100%;
@@ -27,26 +23,22 @@
     margin-bottom: 12px;
   }
   
-  /* Tablo için stil özellikleri */
   .CreateGroup  table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
   }
   
-  /* Tablo başlığı için stil özellikleri */
   .CreateGroup  thead th {
     padding: 10px;
     background-color: #f2f2f2;
   }
   
-  /* Tablo içeriği için stil özellikleri */
   .CreateGroup  tbody td {
     padding: 10px;
     border: 1px solid #ddd;
   }
   
-  /* Sil butonu için stil özellikleri */
   .CreateGroup  button {
     padding: 8px;
     background-color: #007bff;
@@ -55,12 +47,10 @@
     border: none;
   }
   
-  /* Sil butonu hover durumunda stil özellikleri */
   .CreateGroup  button:hover {
     background-color: #0056b3;
   }
   
-  /* Alert kutusu için stil özellikleri */
   .CreateGroup  .alert {
     background-color: #f8d7da;
     color: #721c24;
@@ -69,8 +59,4 @@
     border: 1px solid #f5c6cb;
     border-radius: 4px;
 
-  }
-  
-  /* Alert kutusu gizlendiğinde stil özellikleri */
- 
-  
+  } 

@@ -15,7 +15,7 @@ const AdminAllStudents = (props) => {
   let groups = useSelector(state => state.university.groups)
   let faculties = useSelector(state => state.university.faculties)
   let specialties = useSelector(state => state.university.specialties)
-
+ 
   function searchStudent(e) {
     setSearchKeys({...searchKeys,student: e.target.value.toLowerCase()});
   }
@@ -38,12 +38,13 @@ const AdminAllStudents = (props) => {
       <table>
         <thead>
           <tr>
-            <th rowSpan ={2}>N</th>
+            <th></th>
             <th colSpan={3}><input type="text" placeholder='Tələbə' onChange={searchStudent} /></th>
             <th><input type="text" placeholder='Fakültə' onChange={searchFaculity} /></th>
             <th><input type="text" placeholder='Qrup' onChange={searchGroup} /></th>
           </tr>
           <tr>
+            <th>N</th>
             <th>Ad</th>
             <th>Soyad</th>
             <th>Ata adı</th>

@@ -126,7 +126,6 @@ const CreateSpecialty = () => {
                                 }
                             })
                             if (check) {
-                                console.log(education_plan);
 
                                 dispatch(createSpecialtyR({ name, faculty_id, tutor, education_plan }));
 

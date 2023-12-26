@@ -6,8 +6,7 @@ import './HeadOfDepartmentHome.css'
 
 const HeadOfDepartmentHome = () => {
 
-    const dispatch = useDispatch();
-    // const department = allDepartments.find(a => a.head_of_department_id === currentUser.id);
+    const dispatch = useDispatch(); 
     const department = useSelector(state => state.university.currentDepartment);
     const users = useSelector(state => state.university.users);
     const allGroups = useSelector(state => state.university.groups);

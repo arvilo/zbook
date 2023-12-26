@@ -53,3 +53,30 @@ td:first-child {
 .AdminAllStudent tr:hover {
     background-color: #f5f5f5;
 }
+
+@media screen and (min-width: 300px) and (max-width: 640px) {
+    .AdminAllStudent td:nth-child(1),.AdminAllStudent th:nth-child(1),.AdminAllStudent td:nth-child(4),.AdminAllStudent th:nth-child(4),.AdminAllStudent td:nth-child(6),.AdminAllStudent th:nth-child(6) {
+        display: none;
+    }
+
+    .AdminAllStudent thead tr:first-child {
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 300px) and (max-width: 640px) {
+    .AdminAllStudent td:nth-child(5),.AdminAllStudent th:nth-child(5){
+        display: none;
+    }
+
+    
+    
+}
+
+@media screen and (min-width: 300px) and (max-width: 330px) {
+    .AdminAllStudent td:nth-child(3),.AdminAllStudent th:nth-child(3){
+        display: none;
+    }
+    
+}
