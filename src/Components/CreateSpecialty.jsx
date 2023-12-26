@@ -176,7 +176,7 @@ const CreateSpecialty = () => {
                                                     ))
                                                 }
                                             </select>
-                                            <input type="number" name={ind + "-" + subInd + "-credit"} />
+                                            <input type="number" name={ind + "-" + subInd + "-credit"} placeholder='Fənnin krediti'/>
                                         </div>
                                     ))
                                 }
